@@ -233,6 +233,7 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 	- Basic misconfigurations.
 	- IDOR and access control flaws.
 
+### [Arsenal](#arsenal-phase-g--professionalization--portfolio)
 ---
 ## Final Deliverables Before Applying for Jobs
 **To look strong as an Offensive Security Engineer (Full-Stack), you must have:**
