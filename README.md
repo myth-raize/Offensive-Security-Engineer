@@ -1,4 +1,5 @@
 
+
 # Offensive Security Engineer
 Offensive Security Engineer Roadmap
 
@@ -255,9 +256,16 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 - Sanitize PoCs before sharing.
 - Follow responsible disclosure and regional laws.
 
+**Job-ready**
+- **Prepare:**
+	- 2–3 of your best writeups → rewrite them in a professional pentest-report format.
+	- A summarized skill map: phases A–G you’ve completed + lab hours + exams passed.
+- **Practice interview questions:**
+	- Explain how you pentest a web app/application/infrastructure step-by-step.
+	- Talk through real cases you’ve handled: what happened, the root cause, and what remediation you recommended.
+
 ---
 ## Arsenal PHASE A — Core Foundations
-
 **Linux**
 - [abex.io/linuxjourney](https://labex.io/linuxjourney)
 - [tcm-sec: linux-fundamentals](https://academy.tcm-sec.com/p/linux-fundamentals)
@@ -292,20 +300,129 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 
 ---
 ## Arsenal PHASE B — Scripting & Recon Automation
+**AI**
+- [tcm-sec: ai-100-fundamentals](https://academy.tcm-sec.com/p/ai-100-fundamentals)
+   
+ **Python basics**
+- [automatetheboringstuff](https://automatetheboringstuff.com/)  
+- [tcm-sec: programming-100-fundamentals](https://academy.tcm-sec.com/p/programming-100-fundamentals)
+    
+
+**Network & web scripting:**
+- Official Python docs – requests quickstart
+- Blog/tutorial “Building a simple port scanner in Python with sockets”  
+- RealPython/free articles that teach asyncio for concurrent requests (good for mass HTTP probing)
+
+**Regex**
+- [regexone](https://regexone.com/)  
+- YouTube “Regular Expressions – Crash Course”
+- [youtube: Learn Regular Expressions (Regex)](https://youtu.be/ZfQFUJhPqMM)
+    
+**JSON/CSV**
+- [w3schools: json](https://www.w3schools.com/js/)
+
+**Practical recon automation ideas**
+- Get ideas from blogs/pentest writeups  
+   **Scripts for**
+	- subdomain enumeration automation
+    - HTTP screenshot (using Aquatone, gowitness and writing a wrapper script)
+    - mass HTTP status check + title collection
 
 ---
 ## Arsenal PHASE C — Web & Application Pentesting
+**TCM (Buy 6 Months, Phase C-D)**
+-   [tcm-sec: linux-101](https://academy.tcm-sec.com/p/linux-101) (Buy, 5.5 h)
+-   [tcm-sec: python-101-for-hackers](https://academy.tcm-sec.com/p/python-101-for-hackers) (5.5 h)
+-   [tcm-sec: python-201-for-hackers](https://academy.tcm-sec.com/p/python-201-for-hackers) (7.5 h)
+-   [tcm-sec: practical-ethical-hacking-the-complete-course](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course) (20+ h)
+-   [tcm-sec: practical-bug-bounty](https://academy.tcm-sec.com/p/practical-bug-bounty) (9.5 h)
+-   [tcm-sec: practical-web-hacking](https://academy.tcm-sec.com/p/practical-web-hacking) (10+ h)
+    
+**OWASP Top 10 Theory**
+- [owasp: project-top-ten](https://owasp.org/www-project-top-ten/)  
+- [owasp: project-web-security-testing-guide](https://owasp.org/www-project-web-security-testing-guide/)
+    
+
+**Labs for serious web vulns**
+- [portswigger: web-security](https://portswigger.net/web-security) 
+    Covers XSS, SQLi, auth, SSRF, IDOR, HTTP Request Smuggling, Session Management, Authentication vulnerabilities, Business logic, API testing topic.
+- [tryhackme: web challenges/web paths](https://tryhackme.com/) (Buy/Free)
+- [hackthebox: web challenges/web paths](https://www.hackthebox.com/) (Buy)
 
 ---
 ## Arsenal PHASE D — System & Exploit Development Basics
+**TCM (Buy 6 Months, Phase C-D)**
+- [tcm-sec: hacking-apis](https://academy.tcm-sec.com/p/hacking-apis) (6 h)
+- [tcm-sec: programming-with-ai](https://academy.tcm-sec.com/p/programming-with-ai) (2 h)
+- [tcm-sec: ai-hacking-101](https://academy.tcm-sec.com/p/ai-hacking-101) (6 h)
+- [tcm-sec: mobile-application-penetration-testing](https://academy.tcm-sec.com/p/mobile-application-penetration-testing) (9 h)
+- [tcm-sec: assembly-101](https://academy.tcm-sec.com/p/assembly-101) (12+ h)
+- [tcm-sec: c-sharp-101-for-hackers](https://academy.tcm-sec.com/p/c-sharp-101-for-hackers) (6 h)
+- [tcm-sec: rust-101](https://academy.tcm-sec.com/p/rust-101) (5 h)
+- [tcm-sec: practical-malware-analysis-triage](https://academy.tcm-sec.com/p/practical-malware-analysis-triage) (10+ h)
+
+**CWL**
+- [cyberwarfare: certified-exploit-development-professional-cedp](https://cyberwarfare.live/product/certified-exploit-development-professional-cedp/) (Buy)
+
+**C/C++ fundamentals (memory management, pointers, arrays)**    
+- [geeksforgeeks: c-programming-language](https://www.geeksforgeeks.org/c/c-programming-language/)
+- [tutorialspoint: cprogramming](https://www.tutorialspoint.com/cprogramming/index.htm)
+    
+**Buffer overflow / memory layout / exploit dev**
+- [hackers-arise: exploit-development-part-1-anatomy-of-buffer-overflows](https://hackers-arise.com/exploit-development-part-1-anatomy-of-buffer-overflows/) 
+- [blog: pentester-guide-to-exploiting-buffer-overflow-vulnerabilities](https://www.cobalt.io/blog/pentester-guide-to-exploiting-buffer-overflow-vulnerabilities) 
+- [blog: buffer-overflows-complete-guide](https://www.code-intelligence.com/blog/buffer-overflows-complete-guide) 
+- [medium: windows-exploit-development-with-buffer-overflow-example](https://whichbuffer.medium.com/windows-exploit-development-with-buffer-overflow-example-1-158ddcc029fe)
+- [the-coalfire-blog: the-basics-of-exploit-development-5-x86-64-buffer](https://coalfire.com/the-coalfire-blog/the-basics-of-exploit-development-5-x86-64-buffer)
+
+**Lab/practice**
+Learn to use a debugger (gdb/pwndbg or x64dbg) + understand stack layout, EIP/RIP control
+- [https://www.vulnhub.com/](https://www.vulnhub.com/)
 
 ---
 ## Arsenal PHASE E — Cloud & Infrastructure Offensive Security
+**CWL**
+- [cyberwarfare: multi-cloud-red-team-analyst-mcrta](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/) (Buy)
+
+**Cloud fundamentals (AWS/Azure/GCP)**
+- [tryhackme: cloud-security-training-with-hands-on-exercises-how-to-start](https://tryhackme.com/resources/blog/cloud-security-training-with-hands-on-exercises-how-to-start)
+- [blog: getting-started-with-aws-security](https://blog.pwnedlabs.io/getting-started-with-aws-security)
+- [medium: learning-path-for-cloud-security-specialists](https://medium.com/%40ihor.sasovets/learning-path-for-cloud-security-specialists-73a09bc1db3b)
+
+**Hands-on cloud offensive labs**
+- [cloudbreach: breachingaws](https://cloudbreach.io/breachingaws/) (Buy~)
+- [hackthebox: cloud-labs-blacksky](https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky)  
+- [github: Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)
+- [cybr: hands-on-labs-added-july-2025](https://cybr.com/announcements/hands-on-labs-added-july-2025/)
+
+**Terraform misconfigs & IaC**
+- Search GitHub “insecure terraform examples”/“terraform misconfiguration labs”
+- Blog posts “Terraform security best practices” read upside down (see what the anti-pattern is)
 
 ---
 ## Arsenal PHASE F — Post-Exploitation, Red Teaming & Tooling
+**CWL**
+- [cyberwarfare: active-directory-red-team-specialist-ad-rts](https://cyberwarfare.live/product/active-directory-red-team-specialist-ad-rts/) (Buy)  
+- [cyberwarfare: enterprise-lateral-movement-specialist](https://cyberwarfare.live/product/enterprise-lateral-movement-specialist/) (Buy)  
+- [cyberwarfare: red-team-infra-developer](https://cyberwarfare.live/product/red-team-infra-developer/) (Buy)
+    
+**Lateral movement & persistence (Windows / AD)**
+- [udemy: learn-active-directory-pentesting-for-redteaming-part-1](https://www.udemy.com/course/learn-active-directory-pentesting-for-redteaming-part-1/) (Buy)
+- [youtube: Windows Red Team Lateral Movement Techniques](https://youtu.be/QGkmlsvjMYI)
+
+**Full red team tradecraft**
+- [tryhackme: redteaming](https://tryhackme.com/path/outline/redteaming) 
+
+**Custom agent dev & OPSEC**
+- Learn Go or C# from the ground up (can do simple implants/agents)  
+- Read the red team/C2 project blog (Mythic, Covenant, Sliver) – see code/OPSEC notes  
+- SpecterOps, Red Team Operators' Blog discusses “operational security for red teams”  
+- Papers/slide decks “Red Team OPSEC” from security conferences (DEF CON, BH, etc.)
 
 ---
 ## Arsenal PHASE G — Professionalization & Portfolio
+
+**cyberdemy**
+- [cyberdemy: Focus Hacking](https://cyberdemy.co/course/promotion/MjE=/42E26F52-A792-4C12-9E7F-60FDC60012F7) (Buy)
 
 ---
