@@ -1,18 +1,20 @@
+
 # Offensive Security Engineer
 ## List of Contents
-- **[PHASE 0 — Setup & Mindset](#phase-0)**
-- **[PHASE A — Core Foundations](#phase-a)**
-- **[PHASE B — Scripting & Recon Automation](#phase-b)**
-- **[PHASE C — Web & Application Pentesting](#phase-c)**
-- **[PHASE D — System & Exploit Development Basics](#phase-d--system--exploit-development-basics)**
-- **[PHASE E — Cloud & Infrastructure Offensive Security](#phase-e)**
-- **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f)**
-- **[PHASE G — Professionalization & Portfolio](#phase-g)**
+- **[PHASE 0 — Setup & Mindset](#phase-0--setup--mindset)**
+- **[PHASE A — Core Foundations](#phase-a-core-foundations)**
+- **[PHASE B — Scripting & Recon Automation](#phase-b--scripting--recon-automation)**
+- **PHASE C — Web & Application Pentesting**
+- **PHASE D — System & Exploit Development Basics**
+- **PHASE E — Cloud & Infrastructure Offensive Security**
+- **PHASE F — Post-Exploitation, Red Teaming & Tooling**
+- **PHASE G — Professionalization & Portfolio**
 - **[Final Deliverables Before Applying for Jobs](#final-deliverables-before-applying-for-jobs)**
 - **[Arsenal](#arsenal)**
 
-## PHASE 0
+## PHASE 0 — Setup & Mindset
 **Setup & Mindset (20 hours)**
+
 **Goal :** Understand what pentesting is, have a clear plan, and have a ready-to-use lab
 -   **Learn these terms:** pentester, red team, blue team, bug bounty, PoC, scope, permission
 - **Read a basic overview of legal frameworks (Thai and international):** never hack systems without explicit authorization
@@ -32,7 +34,7 @@
 - **Phase C–E (Web / Exploit / ICS/SDR)**
 	- Select free tutorials specifically in the Web App, Network Exploitation, and SCADA/ICS categories, focusing on topics where good resources are harder to find (e.g. ICS/SCADA, SDR).
 
-## PHASE A
+## PHASE A — Core Foundations
 **Core Foundations (140 hours ~2 months)**
 **Goal:** Build your lab, learn OS fundamentals, understand networking/HTTP, and use essential tools.  
 **Key Skills:** Linux CLI, basic Windows PowerShell, TCP/IP, DNS, HTTP, Git, Docker/VM operations.  
@@ -53,11 +55,11 @@
 **Lab Practice:**
 - TryHackMe: module “Complete Beginner/Pre-Security/Intro to Pentesting”
 
-## PHASE B
-## PHASE C
+## PHASE B — Scripting & Recon Automation
+## PHASE C — Web & Application Pentesting
 ## PHASE D — System & Exploit Development Basics
-## PHASE E
-## PHASE F
-## PHASE G
+## PHASE E — Cloud & Infrastructure Offensive Security
+## PHASE F — Post-Exploitation, Red Teaming & Tooling
+## PHASE G — Professionalization & Portfolio
 ## Final Deliverables Before Applying for Jobs
 ## Arsenal
