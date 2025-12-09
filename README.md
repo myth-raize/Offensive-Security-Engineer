@@ -1,7 +1,7 @@
 # Offensive Security Engineer
 Offensive Security Engineer Roadmap
 
-It takes 2 hours to study per day.
+It takes 2 hours of study per day, total time 20 months.
 
 ---
 ## List of Contents
