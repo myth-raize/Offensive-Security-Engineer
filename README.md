@@ -1,3 +1,4 @@
+
 # Offensive Security Engineer
 Offensive Security Engineer Roadmap
 
@@ -30,8 +31,6 @@ It takes 2 hours of study per day, total time 20 months.
   
 **Sign up for platforms:**
 - TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
-
-**Arsenal**
 
 ### Practical recommendations
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
@@ -66,6 +65,8 @@ It takes 2 hours of study per day, total time 20 months.
 
 **Lab Practice:**
 - TryHackMe: module “Complete Beginner/Pre-Security/Intro to Pentesting”
+
+### [Arsenal](#arsenal-phase-a--core-foundations)
 
 ---
 ## PHASE B — Scripting & Recon Automation
@@ -244,4 +245,44 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 - Follow responsible disclosure and regional laws.
 
 ---
-## Arsenal
+## Arsenal PHASE A — Core Foundations
+
+**Linux**
+- [abex.io/linuxjourney](https://labex.io/linuxjourney)
+- [tcm-sec: linux-fundamentals](https://academy.tcm-sec.com/p/linux-fundamentals)
+- [inuxcommand.org](https://linuxcommand.org/index.php)
+- [w3schools: bash](https://www.w3schools.com/bash/)
+
+**PowerShell**
+- [youtube: PowerShell For Beginners Full Course](https://youtu.be/UVUd9_k9C6A)
+
+**TCP/IP, DNS**
+- [udemy: comptia-networkplus-certification](https://www.udemy.com/course/comptia-networkplus-certification/) (Buy)    
+- [youtube: Computer Networking Course](https://youtu.be/qiQR5rTSshw)
+    
+**HTTP**
+- [developer: HTTP overview, status codes, methods](https://developer.mozilla.org/en-US/) 
+   
+ **Git**
+- [w3schools: git](https://www.w3schools.com/git/)
+- Book “Pro Git”
+    
+**Docker**
+- [youtube: Complete Docker Course](https://youtu.be/RqTEHSBrYFw)
+- [youtube: Docker Crash Course for Absolute Beginners](https://youtu.be/pg19Z8LL06w)
+    
+**VM operations**
+- “VirtualBox/VMware – create lab, snapshots” + article “beginner home lab pentesting” (someone teaches how to set up Kali + Windows + AD mini-lab)
+    
+**IT**
+- [tcm-sec: practical-help-desk](https://academy.tcm-sec.com/p/practical-help-desk)  
+- [udemy: comptia-aplus-core-1](https://www.udemy.com/course/comptia-aplus-core-1/) (Buy)  
+- [udemy: comptia-aplus-core-2](https://www.udemy.com/course/comptia-aplus-core-2/) (Buy)
+
+---
+## Arsenal PHASE B — Scripting & Recon Automation
+## Arsenal PHASE C — Web & Application Pentesting
+## Arsenal PHASE D — System & Exploit Development Basics
+## Arsenal PHASE E — Cloud & Infrastructure Offensive Security
+## Arsenal PHASE F — Post-Exploitation, Red Teaming & Tooling
+## Arsenal PHASE G — Professionalization & Portfolio
