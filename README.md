@@ -1,5 +1,6 @@
-
 # Offensive Security Engineer
+
+---
 ## List of Contents
 - **[PHASE 0 — Setup & Mindset](#phase-0--setup--mindset)**
 - **[PHASE A — Core Foundations](#phase-a--core-foundations)**
@@ -12,6 +13,7 @@
 - **[Final Deliverables Before Applying for Jobs](#final-deliverables-before-applying-for-jobs)**
 - **[Arsenal](#arsenal)**
 
+---
 ## PHASE 0 — Setup & Mindset
 **(20 hours)**
 
@@ -21,11 +23,11 @@
 
 **Set up the lab:**
 - PC/Notebook + VirtualBox/VMware
--   Kali Linux / Parrot OS
--   Create basic snapshots/backups
+- Kali Linux / Parrot OS
+- Create basic snapshots/backups
   
 **Sign up for platforms:**
--   TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
+- TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
 
 ### Practical recommendations
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
@@ -34,6 +36,7 @@
 - **Phase C–E (Web / Exploit / ICS/SDR)**
 	- Select free tutorials specifically in the Web App, Network Exploitation, and SCADA/ICS categories, focusing on topics where good resources are harder to find (e.g. ICS/SCADA, SDR).
 
+---
 ## PHASE A — Core Foundations
 **(140 hours ~2 months)**
 
@@ -60,11 +63,181 @@
 **Lab Practice:**
 - TryHackMe: module “Complete Beginner/Pre-Security/Intro to Pentesting”
 
+---
 ## PHASE B — Scripting & Recon Automation
+**(140 hours ~2 months)**
+
+**Goal:** Build automation skills for scanning, reconnaissance, and data collection.  
+
+**Key Skills:** Python (requests, sockets, asyncio), Bash, regex, JSON/CSV parsing.
+  
+**Tools:** Python3, requests, BeautifulSoup, Nmap, masscan, Amass.
+
+**Deliverables:**
+- 2 working recon scripts (custom port-scanner + basic web crawler).
+- README + optional unit tests.
+    
+**Core Activities:**
+- Build a Python socket-based scanner.
+- Create a web crawler that enumerates links/forms.
+- Resolve domains, query WHOIS, and store results in CSV.
+    
+**KPIs:** Two fully functioning recon scripts + automated recon workflow.
+
+**Lab Practice:**
+- TryHackMe: module “Scripting/Intro to Python/Linux privilege escalation”  (The part that uses script)
+
+---
 ## PHASE C — Web & Application Pentesting
+**(200 hours ~3 months)**
+
+**Goal:** Identify OWASP Top 10 vulnerabilities and create PoC exploits.  
+
+**Key Skills:** HTTP internals, cookies/sessions, auth flaws, XSS, SQLi, CSRF, SSRF, IDOR.  
+
+**Tools:** Burp Suite, browser devtools, sqlmap, ZAP.
+
+**Deliverables:**
+- 1 sanitized pentest report.
+- Working PoC (XSS or SQLi).
+- Write-up explaining methodology.
+
+**Core Activities:**
+- Manual testing workflow with Burp Suite.
+- Analyze authentication & session flows.
+- Write PoCs demonstrating exploitation inside your lab.
+
+**KPIs:** Ability to identify and exploit 3 OWASP categories.
+
+**Lab Practice:**
+- TryHackMe: module “Web Fundamentals, OWASP Top 10, Burp”
+
+---
 ## PHASE D — System & Exploit Development Basics
+**(220 hours ~3 months)**
+
+**Goal:** Understand memory basics, debugging, and write simple exploits.  
+**Key Skills:** C/C++ fundamentals, memory layout, buffer overflows, ASLR/NX, ROP basics.  
+**Tools:** gcc/clang, GDB + pwndbg, Ghidra, radare2, pwntools.
+
+**Deliverables:**
+- 1–2 pwn CTF write-ups.
+- Working basic exploit (sanitized).
+
+**Core Activities:**
+- Compile small C programs, introduce crashes, debug with GDB.
+- Solve “easy” pwn challenges (stack overflow).
+- Write automated exploits using pwntools.
+    
+**KPIs:** Can explain buffer overflows and create an exploit that works in your local lab.
+
+**Lab Practice:**
+- TryHackMe/HTB: Box difficulty Easy/Medium (that emphasizes privileges)
+
+---
 ## PHASE E — Cloud & Infrastructure Offensive Security
+**(200 hours ~3 months)**
+
+**Goal:** Identify cloud misconfigurations + offensive testing in cloud and infrastructure. 
+
+**Key Skills:** AWS/Azure/GCP fundamentals, IAM weaknesses, container security, Terraform misconfigs.  
+
+**Tools:** AWS CLI, Azure CLI, gcloud, ScoutSuite, Prowler, Docker, kubectl, Terraform.
+
+**Deliverables:**
+- Cloud misconfiguration report + remediation.
+- Cloud automation or scanning script.
+
+**Core Activities:**
+- Build an AWS free-tier lab (VPC, EC2, S3, IAM).
+- Test metadata service, S3 ACLs, weak IAM roles.
+- Audit misconfigurations with ScoutSuite/Prowler.
+    
+**KPIs:** One real misconfig scenario exploited + documented remediation.
+
+**Lab Practice:**
+- TryHackMe/HTB: Windows/AD machine, internal network
+
+---
 ## PHASE F — Post-Exploitation, Red Teaming & Tooling
+**(200 hours ~3 months)**
+
+**Goal:** Build offensive tradecraft, tooling, and post-exploitation skills.  
+
+**Key Skills:** Lateral movement, persistence, credential extraction (lab only),  
+PowerShell/WinRM, custom agent dev, OPSEC fundamentals.  
+
+**Tools:** PowerShell, WinRM, Metasploit (concept only), custom Python/Go tools, C2 frameworks (lab only).
+
+**Deliverables:**
+- Simple post-exploitation tool or agent prototype.
+- Mini red team scenario write-up.
+- Detection & mitigation recommendations.
+
+**Core Activities:**
+- Build reverse-shell prototype.
+- Linux/Windows privilege escalation labs.
+- Simulate mini red team operation: initial access → lateral movement → persistence → exfil (all inside lab).
+    
+**KPIs:** Working tool prototype + red-team report showing offensive/defensive understanding.
+
+---
 ## PHASE G — Professionalization & Portfolio
+**(180 hours ~3 months)**
+
+**Goal:** Turn everything above into a professional identity and be ready to apply for jobs / take on work.
+  
+**Key Focus:** Portfolio, certifications, soft skills, workflow.
+
+**Portfolio/GitHub**
+- **Keep:**
+	- THM/HTB writeups (with sensitive information properly redacted).
+	- Scripts/tools you wrote yourself (recon, brute helpers, parsers, etc.).
+	- A lab report template (following the structure real pentest companies use).
+- **Create a personal site (static is fine) including:**
+	- About me (Offensive Security Engineer / Pentester).
+	- Skill matrix + the roadmap you’ve followed.
+	- Links to GitHub and your TryHackMe/HTB profiles.
+
+**Certifications to Target**
+- **Start with (depending on your style):**
+	- eJPT / PNPT / Security+.
+- **Then move on to:**
+	- OSCP or other practical, hands-on exam-style certifications.
+- **Use the roadmap above to align with each exam’s objectives** 
+	(e.g. OSCP → web, buffer overflow, privilege escalation, basic AD).
+    
+**Bug Bounty & Real-world Practice**
+- **Sign up on platforms like HackerOne, Intigriti, etc.**  
+	— choose programs that are open to beginners.
+- **Initial goals:**
+	- Aim to find some low/medium-severity issues  
+	→ practice writing clear, solid reports.
+- **Skills to train:**
+	- Recon, finding forgotten subdomains.
+	- Basic misconfigurations.
+	- IDOR and access control flaws.
+
+---
 ## Final Deliverables Before Applying for Jobs
+**To look strong as an Offensive Security Engineer (Full-Stack), you must have:**
+- **3–6 GitHub Projects:**  
+	Recon scripts, web PoCs, exploit PoCs, cloud audit tools.
+- **2 sanitized pentest reports**
+- **1–3 CTF write-ups**
+- **1 cloud misconfig analysis**
+- **Professional README + lab setup documentation**
+
+**Career-Ready KPIs (Global Targets)**
+- Solve 3–5 challenges/week (TryHackMe/HTB).
+- Multiple working PoCs.
+- Full pentest report.
+- Faster solving time week-over-week.
+
+**Ethics & Legal Guidelines**
+- Train only on systems you own or have explicit permission for.
+- Sanitize PoCs before sharing.
+- Follow responsible disclosure and regional laws.
+
+---
 ## Arsenal
