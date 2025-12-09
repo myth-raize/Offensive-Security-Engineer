@@ -92,7 +92,7 @@ It takes 2 hours of study per day, total time 20 months.
 **Lab Practice:**
 - TryHackMe: module “Scripting/Intro to Python/Linux privilege escalation”  (The part that uses script)
 
-### [Arsenal](arsenal-phase-b--scripting--recon-automation)
+### [Arsenal](#arsenal-phase-b--scripting--recon-automation)
 
 ---
 ## PHASE C — Web & Application Pentesting
