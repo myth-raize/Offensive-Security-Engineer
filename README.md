@@ -14,15 +14,19 @@
 
 ## PHASE 0 — Setup & Mindset
 **(20 hours)**
+
 **Goal :** Understand what pentesting is, have a clear plan, and have a ready-to-use lab
 -   **Learn these terms:** pentester, red team, blue team, bug bounty, PoC, scope, permission
 - **Read a basic overview of legal frameworks (Thai and international):** never hack systems without explicit authorization
+
 **Set up the lab:**
 - PC/Notebook + VirtualBox/VMware
 -   Kali Linux / Parrot OS
 -   Create basic snapshots/backups
+  
 **Sign up for platforms:**
 -   TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
+
 **Practical recommendations**  
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
 - **Phase 0–A (Linux / Network / basic Python)**
@@ -32,9 +36,13 @@
 
 ## PHASE A — Core Foundations
 **(140 hours ~2 months)**
+
 **Goal:** Build your lab, learn OS fundamentals, understand networking/HTTP, and use essential tools.  
+
 **Key Skills:** Linux CLI, basic Windows PowerShell, TCP/IP, DNS, HTTP, Git, Docker/VM operations.  
+
 **Tools:** VirtualBox/VMware, Ubuntu/Kali VM, Windows VM, Docker, Git, tcpdump, Wireshark, curl.  
+
 **Deliverables:** Lab README, VM snapshots, sample pcap files, Bash scripts, PowerShell snippets, screenshots.
 
 **Core Activities:**
