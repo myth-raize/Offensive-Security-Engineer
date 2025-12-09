@@ -7,8 +7,8 @@
 - **[PHASE C — Web & Application Pentesting](#phase-c--web--application-pentesting)**
 - **[PHASE D — System & Exploit Development Basics](#phase-d--system--exploit-development-basics)**
 - **[PHASE E — Cloud & Infrastructure Offensive Security](#phase-e--cloud--infrastructure-offensive-security)**
-- **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f--post-exploitation--red-teaming--tooling)**
-- **[PHASE G — Professionalization & Portfolio](#phase-g-professionalization--portfolio)**
+- **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f--post-exploitation-red-teaming--tooling)**
+- **[PHASE G — Professionalization & Portfolio](#phase-g--professionalization--portfolio)**
 - **[Final Deliverables Before Applying for Jobs](#final-deliverables-before-applying-for-jobs)**
 - **[Arsenal](#arsenal)**
 
