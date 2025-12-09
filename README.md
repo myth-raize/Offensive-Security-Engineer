@@ -92,6 +92,8 @@ It takes 2 hours of study per day, total time 20 months.
 **Lab Practice:**
 - TryHackMe: module “Scripting/Intro to Python/Linux privilege escalation”  (The part that uses script)
 
+### [Arsenal](arsenal-phase-b--scripting--recon-automation)
+
 ---
 ## PHASE C — Web & Application Pentesting
 **(200 hours ~3 months)**
@@ -117,6 +119,8 @@ It takes 2 hours of study per day, total time 20 months.
 **Lab Practice:**
 - TryHackMe: module “Web Fundamentals, OWASP Top 10, Burp”
 
+### [Arsenal](#arsenal-phase-c--web--application-pentesting)
+
 ---
 ## PHASE D — System & Exploit Development Basics
 **(220 hours ~3 months)**
@@ -138,6 +142,8 @@ It takes 2 hours of study per day, total time 20 months.
 
 **Lab Practice:**
 - TryHackMe/HTB: Box difficulty Easy/Medium (that emphasizes privileges)
+
+### [Arsenal](#arsenal-phase-d--system--exploit-development-basics)
 
 ---
 ## PHASE E — Cloud & Infrastructure Offensive Security
@@ -163,6 +169,8 @@ It takes 2 hours of study per day, total time 20 months.
 **Lab Practice:**
 - TryHackMe/HTB: Windows/AD machine, internal network
 
+### [Arsenal](#arsenal-phase-e--cloud--infrastructure-offensive-security)
+
 ---
 ## PHASE F — Post-Exploitation, Red Teaming & Tooling
 **(200 hours ~3 months)**
@@ -185,6 +193,8 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 - Simulate mini red team operation: initial access → lateral movement → persistence → exfil (all inside lab).
     
 **KPIs:** Working tool prototype + red-team report showing offensive/defensive understanding.
+
+### [Arsenal](#arsenal-phase-f--post-exploitation-red-teaming--tooling)
 
 ---
 ## PHASE G — Professionalization & Portfolio
@@ -281,8 +291,20 @@ PowerShell/WinRM, custom agent dev, OPSEC fundamentals.
 
 ---
 ## Arsenal PHASE B — Scripting & Recon Automation
+
+---
 ## Arsenal PHASE C — Web & Application Pentesting
+
+---
 ## Arsenal PHASE D — System & Exploit Development Basics
+
+---
 ## Arsenal PHASE E — Cloud & Infrastructure Offensive Security
+
+---
 ## Arsenal PHASE F — Post-Exploitation, Red Teaming & Tooling
+
+---
 ## Arsenal PHASE G — Professionalization & Portfolio
+
+---
