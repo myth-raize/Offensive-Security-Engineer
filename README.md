@@ -4,11 +4,11 @@
 - **[PHASE 0 — Setup & Mindset](#phase-0--setup--mindset)**
 - **[PHASE A — Core Foundations](#phase-a--core-foundations)**
 - **[PHASE B — Scripting & Recon Automation](#phase-b--scripting--recon-automation)**
-- **PHASE C — Web & Application Pentesting**
-- **PHASE D — System & Exploit Development Basics**
-- **PHASE E — Cloud & Infrastructure Offensive Security**
-- **PHASE F — Post-Exploitation, Red Teaming & Tooling**
-- **PHASE G — Professionalization & Portfolio**
+- **[PHASE C — Web & Application Pentesting](#phase-c--web--application-pentesting)**
+- **[PHASE D — System & Exploit Development Basics](#phase-d--system--exploit-development-basics)**
+- **[PHASE E — Cloud & Infrastructure Offensive Security](#phase-e--cloud--infrastructure-offensive-security)**
+- **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f--post-exploitation--red-teaming--tooling)**
+- **[PHASE G — Professionalization & Portfolio](#phase-g-professionalization--portfolio)**
 - **[Final Deliverables Before Applying for Jobs](#final-deliverables-before-applying-for-jobs)**
 - **[Arsenal](#arsenal)**
 
