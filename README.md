@@ -1,6 +1,6 @@
 # Offensive Security Engineer
 Offensive Security Engineer Roadmap
-
+It takes 2 hours to study per day.
 ---
 ## List of Contents
 - **[PHASE 0 — Setup & Mindset](#phase-0--setup--mindset)**
