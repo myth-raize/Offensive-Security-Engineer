@@ -1,6 +1,8 @@
 ## Basic Linux
 
-  pwd (Print Working Directory)
-  cd (Change Directory)
+```bash
+pwd (Print Working Directory)
+cd (Change Directory)
   cd NAME
   cd /home/___  
+```
