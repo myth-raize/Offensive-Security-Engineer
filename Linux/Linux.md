@@ -1,6 +1,6 @@
 ## Basic Linux
 
-```python
+```bash
 pwd (Print Working Directory)
 
 cd (Change Directory)
