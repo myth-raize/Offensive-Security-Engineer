@@ -14,7 +14,6 @@ It takes 2 hours of study per day, total time 20 months.
 - **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f--post-exploitation-red-teaming--tooling)**
 - **[PHASE G — Professionalization & Portfolio](#phase-g--professionalization--portfolio)**
 - **[Final Deliverables Before Applying for Jobs](#final-deliverables-before-applying-for-jobs)**
-- **[Arsenal](#arsenal)**
 
 ---
 ## PHASE 0 — Setup & Mindset
@@ -31,6 +30,8 @@ It takes 2 hours of study per day, total time 20 months.
   
 **Sign up for platforms:**
 - TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
+
+**Arsenal**
 
 ### Practical recommendations
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
