@@ -2,7 +2,7 @@
 # Offensive Security Engineer
 ## List of Contents
 - **[PHASE 0 — Setup & Mindset](#phase-0--setup--mindset)**
-- **[PHASE A — Core Foundations](#phase-a-core-foundations)**
+- **[PHASE A — Core Foundations](#phase-a--core-foundations)**
 - **[PHASE B — Scripting & Recon Automation](#phase-b--scripting--recon-automation)**
 - **PHASE C — Web & Application Pentesting**
 - **PHASE D — System & Exploit Development Basics**
