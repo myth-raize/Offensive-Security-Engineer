@@ -55,7 +55,7 @@
 
 ## PHASE B
 ## PHASE C
-## PHASE D (System & Exploit Development Basics)
+## PHASE D — System & Exploit Development Basics
 ## PHASE E
 ## PHASE F
 ## PHASE G
