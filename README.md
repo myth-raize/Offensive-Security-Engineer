@@ -27,7 +27,7 @@
 **Sign up for platforms:**
 -   TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
 
-**Practical recommendations**  
+### Practical recommendations
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
 - **Phase 0–A (Linux / Network / basic Python)**
 	- Use the book Linux Basics for Hackers and the introductory Linux/Networking articles on the site as a reading list to support your labs on TryHackMe/HTB.
