@@ -56,6 +56,7 @@
 - Use Python’s http.server + send GET/POST with curl + capture traffic.
     
 **KPIs:** Working lab, 1 artifact/week in GitHub, able to explain TCP 3-way handshake.
+
 **Lab Practice:**
 - TryHackMe: module “Complete Beginner/Pre-Security/Intro to Pentesting”
 
