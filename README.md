@@ -13,20 +13,16 @@
 - **[Arsenal](#arsenal)**
 
 ## PHASE 0 — Setup & Mindset
-**Setup & Mindset (20 hours)**
-
+**(20 hours)**
 **Goal :** Understand what pentesting is, have a clear plan, and have a ready-to-use lab
 -   **Learn these terms:** pentester, red team, blue team, bug bounty, PoC, scope, permission
 - **Read a basic overview of legal frameworks (Thai and international):** never hack systems without explicit authorization
-
 **Set up the lab:**
 - PC/Notebook + VirtualBox/VMware
 -   Kali Linux / Parrot OS
 -   Create basic snapshots/backups
-
 **Sign up for platforms:**
 -   TryHackMe, HackTheBox (start with beginner rooms/easy boxes)
-
 **Practical recommendations**  
 ([hackers-arise: getting-started](https://hackers-arise.com/getting-started/))
 - **Phase 0–A (Linux / Network / basic Python)**
@@ -35,7 +31,7 @@
 	- Select free tutorials specifically in the Web App, Network Exploitation, and SCADA/ICS categories, focusing on topics where good resources are harder to find (e.g. ICS/SCADA, SDR).
 
 ## PHASE A — Core Foundations
-**Core Foundations (140 hours ~2 months)**
+**(140 hours ~2 months)**
 **Goal:** Build your lab, learn OS fundamentals, understand networking/HTTP, and use essential tools.  
 **Key Skills:** Linux CLI, basic Windows PowerShell, TCP/IP, DNS, HTTP, Git, Docker/VM operations.  
 **Tools:** VirtualBox/VMware, Ubuntu/Kali VM, Windows VM, Docker, Git, tcpdump, Wireshark, curl.  
