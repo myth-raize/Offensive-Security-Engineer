@@ -4,7 +4,7 @@
 - **[PHASE A — Core Foundations](#phase-a)**
 - **[PHASE B — Scripting & Recon Automation](#phase-b)**
 - **[PHASE C — Web & Application Pentesting](#phase-c)**
-- **[PHASE D (System & Exploit Development Basics)](#phase-d-system-exploit-development-basics)**
+- **[PHASE D — System & Exploit Development Basics](#phase-d--system--exploit-development-basics)**
 - **[PHASE E — Cloud & Infrastructure Offensive Security](#phase-e)**
 - **[PHASE F — Post-Exploitation, Red Teaming & Tooling](#phase-f)**
 - **[PHASE G — Professionalization & Portfolio](#phase-g)**
